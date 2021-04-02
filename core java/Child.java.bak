@@ -1,0 +1,10 @@
+import Parrent;
+class Child  //extends Parrent
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello child");
+		Child c= new Child ();
+		c.m1();
+	}
+}

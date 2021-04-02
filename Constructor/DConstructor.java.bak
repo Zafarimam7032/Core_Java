@@ -1,0 +1,18 @@
+class DefualtConstructor 
+{
+	
+}
+class ConstructorAde
+{
+	public ConstructorAde(){
+		System.out.println("ConstructorAde");
+	
+}
+}
+class DConstructor 
+{
+	public static void main(String s[])
+	{
+		ConstructorAde a=new ConstructorAde();
+}
+}

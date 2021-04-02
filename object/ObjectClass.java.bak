@@ -1,0 +1,11 @@
+class ObjectClass 
+{
+	int a=30;
+	static String name="Greatwits Company";
+	public void display()
+	{
+		System.out.println(a);
+		System.out.println(name);
+
+	}
+}

@@ -1,0 +1,23 @@
+ class ConstructorA 
+{
+	public ConstructorA()
+	{
+		System.out.println(" Default Constructor ConstructorA1");
+
+	}
+}
+class ConstructorB extends ConstructorA
+	{
+		public ConstructorB()
+		{
+			System.out.println(" Default Constructor of ConstructorB");
+		}
+	
+
+	public static void main(String[] args) 
+	{
+		//System.out.println("main method");
+		//ConstructorA a=new ConstructorA();
+		ConstructorB b=new ConstructorB();
+	}
+}

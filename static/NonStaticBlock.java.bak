@@ -1,0 +1,24 @@
+class NonStaticBlock 
+{
+	{
+		System.out.printf("First non Static method");
+	}
+	{
+		System.out.printf("second non Static method");
+	}
+	{
+		System.out.printf("third non Static method");
+	}
+	{
+		System.out.printf("fourth non Static method");
+	}
+	{
+		System.out.printf("Five non Static method");
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("main method");
+		NonStaticBlock v= new NonStaticBlock();
+	}
+}

@@ -1,0 +1,14 @@
+package p1;
+// 
+// Decompiled by Procyon v0.5.36
+// 
+
+public class Age extends Exception
+{
+    Age() {
+    }
+    
+    Age(final String message) {
+        super(message);
+    }
+}

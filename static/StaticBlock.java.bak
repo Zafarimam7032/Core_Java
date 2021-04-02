@@ -1,0 +1,13 @@
+class StaticBlock 
+{
+	static
+	{
+		int a=40;
+		int b=20;
+		System.out.println("Result: " +(a+b));
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main method");
+	}
+}

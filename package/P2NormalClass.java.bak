@@ -1,0 +1,9 @@
+package com.zafar.p2;
+class  P2NormalClass
+{
+	public void display()
+	{
+		System.out.println("p2NormalClass display() method ");
+	}
+
+}

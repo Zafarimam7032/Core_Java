@@ -1,0 +1,8 @@
+package  p;
+class NormalClass 
+{
+	protected  void dislay() 
+	{
+		System.out.println("NormalClass ");
+	}
+}
